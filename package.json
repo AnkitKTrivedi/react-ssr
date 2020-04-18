@@ -1,0 +1,67 @@
+{
+  "name": "cra-ssr",
+  "description": "Server-side rendering with create-react-app, React Router v4, Helmet, Redux, and Thunk",
+  "homepage": "https://cra-ssr.herokuapp.com",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnsht/cra-ssr.git"
+  },
+  "author": "Moonshot <contact@mns.ht>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnsht/cra-ssr/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-dynamic-import-node": "^2.1.0",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^4.5.0",
+    "cookie-parser": "^1.4.3",
+    "cross-env": "^5.2.0",
+    "forcedomain": "^1.0.0",
+    "ignore-styles": "^5.0.1",
+    "js-cookie": "^2.2.0",
+    "md5-file": "^4.0.0",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.13.1",
+    "owl.carousel": "^2.3.4",
+    "query-string": "^6.2.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-frontload": "^1.0.3",
+    "react-helmet": "^5.2.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.0.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "cross-env NODE_ENV=production node ./server/index.js"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^1.1.0",
+    "prettier": "1.14.3",
+    "pretty-quick": "^1.7.0"
+  }
+}
